@@ -51,6 +51,7 @@ export async function generalParser(req: Request, res: Response, next: NextFunct
     try {
         const data = await generalParserStart();
         res.json(data);
+        return next();
     } catch (e) {
         logger.error(`generalParser: ${e}`);
         return next();
