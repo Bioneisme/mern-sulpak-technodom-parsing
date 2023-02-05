@@ -196,7 +196,7 @@ const chart4 = {
             labels: ["Laptops", "Phones", "Gadgets", "Tablets", "TVs", "Computers", "Audio", "Cameras", "Digital"],
             datasets: [
                 {
-                    label: "Products",
+                    label: "Cost",
                     fill: true,
                     backgroundColor: gradientStroke,
                     borderColor: "#00d6b4",
