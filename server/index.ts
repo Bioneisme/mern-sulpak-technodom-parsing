@@ -6,6 +6,7 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import express, {Application} from "express";
 import * as mongoose from "mongoose";
+import productRoute from "./routes/productRoute";
 
 const app: Application = express();
 
@@ -19,6 +20,7 @@ app.use(cors({
 app.use(cookieParser());
 app.use(writeDateLogging);
 app.use("/api/parsers", parserRoute);
+app.use("/api/products", productRoute);
 app.use(logging);
 
 app.listen(SERVER_PORT, async () => {
