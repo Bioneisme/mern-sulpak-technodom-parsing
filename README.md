@@ -39,11 +39,11 @@ Parser of sites Sulpak, Technodom by category written using Node.JS, React.js, M
 ### Installing
 ```bash
 # Get the latest snapshot
-git clone https://github.com/Bioneisme/nodejs-sulpak-technodom-parse.git
+git clone https://github.com/Bioneisme/mern-sulpak-technodom-parsing.git
 ```
 ``` bash
 # Change directory
-cd nodejs-sulpak-technodom-parse
+cd mern-sulpak-technodom-parsing
 ```
 ``` bash
 # Install dependencies in client side
